@@ -16,6 +16,10 @@ The CAD tool used to implement this project on the FPGA is Xilinx Vivado.
      
 Note: If opcode is undefined, RHS will show 0
 
+## Prerequisites
+1) Need to have Vivado installed
+2) Need to have FPGA (Digilent Nexys A7-100T: FPGA Trainer Board )
+
 ## Usage
 1) Clone repository on local device
 2) Open and launch project `alu_calc` on Vivado
@@ -23,7 +27,7 @@ Note: If opcode is undefined, RHS will show 0
 4) Go to hardware program manager, select to program on the generated bitstream file
 5) After succesfully loading Verilog to FPGA, toggle switches to operate the calculator
    
-**Table of operations**
+## **Table of operations**
 | **Opcodes (binary)** | **Operations** |
 | :---         |     :---     |
 | 0000         | A + 1        | 
@@ -36,11 +40,7 @@ Note: If opcode is undefined, RHS will show 0
 | 0111         | B >> 1       |
 | 1000         | B << 1       |
 | 1001         | A % B        |
-| 1010         | A & B        |
+| 1010         | A AND B      |
 | 1011         | A OR B       |
-| 1100         | A^B          |
-
-
-
-
+| 1100         | A XOR B      |
 
