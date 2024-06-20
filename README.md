@@ -3,12 +3,6 @@ A basic ALU calculator that is similar to that found in a computer processor. No
 
 The CAD tool used to implement this project on the FPGA is Xilinx Vivado.
 
-## Usage (to load Verilog in FPGA)
-1) Clone repository on local device
-2) Open and launch project on Vivado
-3) Run Synthesis -> Run Implementation -> Generate Bitstream
-4) Go to hardware program manager, select to program on the generated bitstream file
-
 ## Overview
 **Inputs:**
 - 4 switches each for A value, B value and operator code (4-bits)
@@ -22,6 +16,14 @@ The CAD tool used to implement this project on the FPGA is Xilinx Vivado.
      
 Note: If opcode is undefined, RHS will show 0
 
+## Usage
+1) Clone repository on local device
+2) Open and launch project `alu_calc` on Vivado
+3) Run Synthesis -> Run Implementation -> Generate Bitstream
+4) Go to hardware program manager, select to program on the generated bitstream file
+5) After succesfully loading Verilog to FPGA, toggle switches to operate the calculator
+   
+**Table of operations**
 | **Opcodes (binary)** | **Operations** |
 | :---         |     :---     |
 | 0000         | A + 1        | 
