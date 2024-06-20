@@ -1,5 +1,5 @@
 # VerilogCalculator
-A basic ALU calculator that is similar to that found in a computer processor. Not only does this calculator supports boolean operations, but it also does arithmetic operations with a led indicator should there be an overflow.
+A basic ALU calculator that is similar to that found in a computer processor. Not only does this calculator supports boolean operations, but it also does arithmetic operations with a led indicator for the presence of an overflow.
 
 The CAD tool used to implement this project on the FPGA is Xilinx Vivado.
 
@@ -51,10 +51,10 @@ Note:
 | 1100         | A XOR B      |
 
 ## **More images**
-<img width="203" alt="user_inputs" src="https://github.com/eburhansjah/VerilogCalculator/assets/130926828/b03f12e8-b6e8-4689-b586-0962b59bad72">
+<img width="255" alt="user_inputs" src="https://github.com/eburhansjah/VerilogCalculator/assets/130926828/b03f12e8-b6e8-4689-b586-0962b59bad72">
 
 
-<img width="203" alt="overflow_example" src="https://github.com/eburhansjah/VerilogCalculator/assets/130926828/60c58265-638e-4141-85ff-b5433befc762">
+<img width="255" alt="overflow_example" src="https://github.com/eburhansjah/VerilogCalculator/assets/130926828/60c58265-638e-4141-85ff-b5433befc762">
 
 
 
