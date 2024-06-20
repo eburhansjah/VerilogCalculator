@@ -33,7 +33,6 @@ Note:
 4) Go to hardware program manager, select to program on the generated bitstream file
 5) After succesfully loading Verilog to FPGA, toggle switches to operate the calculator
 
-   
 ## **Table of operations**
 | **Opcodes (binary)** | **Operations** |
 | :---         |     :---     |
@@ -50,4 +49,12 @@ Note:
 | 1010         | A AND B      |
 | 1011         | A OR B       |
 | 1100         | A XOR B      |
+
+## **More images**
+<img width="203" alt="user_inputs" src="https://github.com/eburhansjah/VerilogCalculator/assets/130926828/b03f12e8-b6e8-4689-b586-0962b59bad72">
+
+
+<img width="203" alt="overflow_example" src="https://github.com/eburhansjah/VerilogCalculator/assets/130926828/60c58265-638e-4141-85ff-b5433befc762">
+
+
 
